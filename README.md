@@ -1,13 +1,12 @@
 # Fox
----
+
 Fox is a discord bot built using the discod.js framework, at its core the bot is a reminder bot but has been developed and built with neurodiversity in mind. We've all experienced that moment when we realise 5 minutes has turned into several hours and now have to scramble to complete a task. Fox was designed to help frequent users of discord avoid this problem by providing post reminder check-ins, as well as keeping track of the user's productivity.
 
----
+
 # Getting Started
----
+
 To obtain a copy of this project on your local machine simply clone this repository with your preferred method. More details of this can be found [Here](https://docs.github.com/en/github/using-git/which-remote-url-should-i-use)
 
----
 ## Prerequisites
 
 In order to run this project you will need to have the following software:
@@ -23,7 +22,6 @@ Both can be obtained by downloading node [here](https://nodejs.org/en/download/)
 ```
 To check what version of the software you are running, run `node -v` and `npm -v` in your chosen terminal.
 
----
 ## Installing
 
 After installing node and npm, navigate to your project folder in your terminal.
@@ -43,9 +41,8 @@ Create a new file at the root of your project directory called .env
 Copy the keys from .env_example
 
 ```
----
+
 ## Deployment
----
 
 First create a bot application at https://discord.com/developers/applications/
 
@@ -67,26 +64,19 @@ For the bot to stay on 24/7 it is recommended to use a VPS or a Dedicated Server
 
 To bring the bot online on your local machine you can simply run the following command in your terminal `npm run bot` or use a process manager of your choice.
 
----
 ## Built With
----
+
 * discord.js
 * better-sqlite3
 
----
 ## Contributing
----
 
 All contributes are welcome, this is an open source project and contributing guidelines will follow
 
----
 ## Author
----
 
 * Charlie Anderson
 
----
 ## License
----
 
 This project is licensed under GNU GPLv3 --- See LICENSE.md for more details
